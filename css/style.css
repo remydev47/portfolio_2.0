@@ -69,3 +69,67 @@ header{
     align-items: center;
     cursor: pointer;
 }
+
+section {
+    padding: 0 15%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.home-img {
+    width: 500px;
+    height: 500px;
+}
+.home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.home-text span{
+    padding: 5px 25px;
+    background-color: linear-gradient(130.08deg, #383528, 0%, #191919, 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.home-text h1{
+    /* font-size: var(--big-font); */
+    margin: 23px 0;
+}
+.home-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: #c3c3c3;
+    /* line-height: 10px; */
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 32px 30px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 16px;
+    border-radius: 8px;
+}
+.btn-two{
+    background: #141141;
+    padding: 24px 20px;
+    border: 20px solid #141141;
+    color: var(--text-color);
+    margin-left: 25px;
+    border-radius: 8px;
+}
